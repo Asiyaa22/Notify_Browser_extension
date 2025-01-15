@@ -3,11 +3,11 @@
     "name": "notify",
     "version": "1.0",
     "description": "Notify is the browser extension which notifies🔔 users with motivational messages🚀 periodically to keep them Going!",
-    "permissions": [ "notifications" ],
+    "permissions": ["notifications", "alarms"],
     "background": {
-        "service_worker": "script.js"
+        "service_worker": "background.js"
     },
-    "icon": {
+    "icons": {
         "128": "icon.jpeg"
     }
 }
