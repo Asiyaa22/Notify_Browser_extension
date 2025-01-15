@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "notify",
+    "version": "1.0",
+    "description": "Notify is the browser extension which notifies🔔 users with motivational messages🚀 periodically to keep them Going!",
+    "permissions": [ "notifications" ],
+    "background": {
+        "service_worker": "script.js"
+    },
+    "icon": {
+        "128": "icon.jpeg"
+    }
+}
